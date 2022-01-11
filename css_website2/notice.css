@@ -1,0 +1,248 @@
+#mobile {
+	display: none;
+}
+.notice_banner {
+	width: 100%;
+}
+
+.notice_banner img {
+	width: 100%;
+}
+
+.notice_wrap {
+	width: 100%;
+	margin: 5% 0;
+}
+
+.notice_content_wrap {
+	width: 60%;
+	margin: auto;
+}
+
+.search {
+	display: flex;
+}
+
+.search_left {
+	border: 1px solid;
+	display: flex;
+	align-items: center;
+	padding: 1%;
+	width: 20%;
+}
+
+.sl_input {
+	border: none;
+	outline: none;
+	width: 95%;
+}
+
+.search_right {
+	display: flex;
+	align-items: center;
+	margin-left: 1%;
+}
+
+.sr_input {
+	width: 70px;
+	height: 100%;
+	background-color: #1D1D1D;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #1d1d1d;
+	cursor: pointer;
+}
+
+.content_table {
+	width: 100%;
+	margin: 5% 0;
+}
+
+.cnt04_table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table_cate {
+	color: #1D1D1D;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	top: -25px;
+}
+
+.table_number {
+	color: #1D1D1D;
+	font-weight: bold;
+	font-size: 74px;
+}
+
+.table_date {
+	color: #1D1D1D;
+	font-size: 15px;
+}
+
+.table_title {
+	color: #1D1D1D;
+	font-size: 19px;
+}
+
+.f_td {
+	text-align: center;
+	width: 11%;
+	padding: 0 1%;
+	padding-bottom: 1%;
+}
+
+.s_td {
+	width: 11%;
+	padding: 0 1%;
+	padding-bottom: 1%;
+	text-align: center;
+}
+
+.t_td {
+	width: 78%;
+	padding: 0 1%;
+	padding-bottom: 1%;
+}
+
+.table_textarea {
+	all: unset;
+	width: 95%;
+	resize: none;
+	color: #404040;
+	font-size: 15px;
+	border: none;
+	overflow: hidden;
+}
+
+tr {
+	border-bottom: 1px solid #707070;
+	padding-bottom: 1%;
+}
+
+.cnt04_table tbody tr:last-child {
+	border: none;
+}
+/* 페이징 */
+.paging {
+	display: flex;
+	justify-content: center;
+}
+
+.paging>a {
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	border: 1px solid #EDED;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5px;
+}
+
+.paging>div {
+	background-color: #444547;
+	color: white;
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	border: 1px solid #EDED;
+}
+/* 페이징 END */
+@media screen and (max-width: 1024px) {
+	.notice_content_wrap {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.notice_content_wrap {
+		width: 90%;
+	}
+	.search_left {
+		width: 30%;
+	}
+	.table_title {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#web {
+		display: none;
+	}
+	#mobile {
+		display: block;
+	}
+	.notice_banner {
+		display: none;
+	}
+	.mn_title {
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.mn_subtitle {
+		text-align: center;
+		font-size: 12px;
+		color: #707070;
+	}
+	.mn_content_wrap {
+		padding: 2% 0;
+	}
+	.mnc_inner_wrap {
+		width: 95%;
+		margin: auto;
+		display: flex;
+		padding: 1% 0;
+		border-bottom: 1px solid #707070;
+	}
+	.mnc_fst {
+		font-size: 10px;
+		font-weight: bold;
+		width: 10%;
+		text-align: right;
+		padding-top: 3%;
+	}
+	.mnc_sec {
+		width: 15%;
+	}
+	.mnc_trd {
+		width: 75%;
+		padding-top: 3%;
+	}
+	.mnc_num {
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.mnc_date {
+		font-size: 10px;
+		text-align: center;
+	}
+	.mnc_title {
+		font-size: 12px;
+	}
+	.mnc_subtitle {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 280px) {
+	.mnc_fst {
+		width: 12%;
+	}
+	.mnc_sec {
+		width: 21%;
+	}
+	.mnc_trd {
+		width: 67%;
+	}
+}
